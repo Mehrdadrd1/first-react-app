@@ -1,4 +1,3 @@
-
 # First-React-App!
 
 ## Personal-Website-DoneByReact
@@ -7,6 +6,8 @@
 
 Hi! I'm Mehrdad Rayati and this is my **FirstReactApp**.
 Im trying to develop my personal website, and as a rsult, I think it'll have some bugs and problems.
-So  to anyone who sees this: tell how can I make it better, **I WILL BE PLEASED**
+So to anyone who sees this: tell how can I make it better, **I WILL BE PLEASED**
 
 ## Start project by using react app **npx**
+
+continue reading from the README.md file exist in github repository [personal-website](https://github.com/Mehrdadrd1/first-react-app/blob/master/personal-website/README.md)
