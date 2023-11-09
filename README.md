@@ -10,4 +10,4 @@ So to anyone who sees this: tell how can I make it better, **I WILL BE PLEASED**
 
 ## Start project by using react app **npx**
 
-continue reading from the README.md file exist in github repository [personal-website](https://github.com/Mehrdadrd1/first-react-app/blob/master/personal-website/README.md)
+continue reading from the README.md file exists in github repository [personal-website](https://github.com/Mehrdadrd1/first-react-app/blob/master/personal-website/README.md)
