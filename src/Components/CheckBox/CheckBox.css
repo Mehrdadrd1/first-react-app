@@ -1,0 +1,12 @@
+.CheckBox {
+  display: block;
+  margin: 10px 0px;
+}
+
+.CheckBox input {
+  padding: 10px;
+}
+
+.CheckBox label {
+  font-size: var(--font-size-body);
+}

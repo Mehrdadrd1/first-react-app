@@ -1,13 +1,15 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nunito&display=swap");
+
+:root {
+  --color-primary: #dde6ed;
+  --color-secondary: #9db2bf;
+  --color-tertiary: #526d82;
+  --color-quaternary: #27374d;
+  --font-size-body: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: var(--font-size-body);
 }

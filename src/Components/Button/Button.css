@@ -1,0 +1,16 @@
+.Button {
+  color: var(--color-quaternary);
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: var(--font-size-body);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.Button:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+}
