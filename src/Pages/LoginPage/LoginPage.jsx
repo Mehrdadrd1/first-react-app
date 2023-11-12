@@ -1,14 +1,14 @@
 import Layout from "../../Components/Layout/Layout";
-import RegisterForm from "../../Container/RegisterForm/RegisterForm";
-import "./LoginPage.css";
+import Heading from "../../Components/Heading/Heading";
+import LoginForm from "../../Container/LoginForm/LoginForm";
 
 const LoginPage = () => {
   return (
     <div className="LoginPage">
       <Layout>
-        <h1>Login</h1>
+        <Heading as={"h1"}>Log in</Heading>
         <hr />
-        <RegisterForm />
+        <LoginForm />
         <hr />
       </Layout>
     </div>

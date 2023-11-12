@@ -3,31 +3,24 @@ import Input from "../../Components/Input/Input";
 import Form from "../../Components/Form/Form";
 import CheckBox from "../../Components/CheckBox/CheckBox";
 
-const RegisterForm = () => {
+const LoginForm = () => {
   return (
-    <div className="RegisterForm">
+    <div className="LoginForm">
       <Form>
-        <Input label="Name" id="name" type="name" placeholder="Name" />
         <Input label="Email" id="email" type="email" placeholder="Email" />
         <Input
           label="Password"
           id="password"
-          type="p assword"
+          type="password"
           placeholder="Password"
-        />
-        <Input
-          label="confirm Password"
-          id="confirmPassword"
-          type="confirmPassword"
-          placeholder="confirmation Password"
         />
         <CheckBox>Remember ME</CheckBox>
         <Button type="submit" id="submit">
-          Register ME
+          Submit
         </Button>
       </Form>
     </div>
   );
 };
 
-export default RegisterForm;
+export default LoginForm;

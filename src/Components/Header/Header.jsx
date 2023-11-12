@@ -25,10 +25,10 @@ const Header = () => {
         <div className="user-card">
           <ul>
             <li>
-              <Link>Log in</Link>
+              <Link to={`/login`}>Log in</Link>
             </li>
             <li>
-              <Link>Sign Up</Link>
+              <Link to={`/registration`}>Register</Link>
             </li>
             <li>
               <Link>Card</Link>
