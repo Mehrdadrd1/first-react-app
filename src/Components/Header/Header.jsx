@@ -22,7 +22,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div class="user-card">
+        <div className="user-card">
           <ul>
             <li>
               <Link>Log in</Link>
