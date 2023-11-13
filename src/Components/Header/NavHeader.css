@@ -1,0 +1,19 @@
+.stickyNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: centesir;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.Header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.Header li {
+  margin: 0 10px;
+}

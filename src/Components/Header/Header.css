@@ -1,21 +1,15 @@
 .Header {
   background-color: var(--color-tertiary);
+  width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 25px 10px 10px 0px;
-}
-
-.Header nav {
-  display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 25px 10px 10px 0px;
+  height: 10rem;
 }
 
-.Header ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-}
-
-.Header li {
-  margin: 0 10px;
+.h1 {
+  font-size: xx-large;
+  font-weight: 700;
 }

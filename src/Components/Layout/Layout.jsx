@@ -5,9 +5,13 @@ import "./Layout.css";
 const Layout = ({ children }) => {
   return (
     <div className="Layout">
-      <Header />
+      <header className="header">
+        <Header />
+      </header>
       <main>{children}</main>
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };

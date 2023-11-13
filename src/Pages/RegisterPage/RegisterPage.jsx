@@ -7,10 +7,7 @@ const RegisterPage = () => {
   return (
     <div className="RegisterPage">
       <Layout>
-        <Heading as={"h1"}>Register</Heading>
-        <hr />
         <RegisterForm />
-        <hr />
       </Layout>
     </div>
   );

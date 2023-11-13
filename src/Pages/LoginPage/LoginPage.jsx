@@ -7,9 +7,9 @@ const LoginPage = () => {
     <div className="LoginPage">
       <Layout>
         <Heading as={"h1"}>Log in</Heading>
-        <hr />
-        <LoginForm />
-        <hr />
+        <div>
+          <LoginForm />
+        </div>
       </Layout>
     </div>
   );

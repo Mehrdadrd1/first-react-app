@@ -1,18 +1,21 @@
 .Layout {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
-Header {
-  top: 0;
-  width: 100%;
-  height: 6rem;
+.Layout header {
+  display: flex;
+  justify-content: baseline;
 }
 
-Footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 6rem; /* Footer height */
+.Layout main {
+  height: max-content;
+  margin: 20px;
+  padding: 20px;
+}
+
+footer {
+  justify-self: end;
 }
