@@ -1,3 +1,7 @@
+.h6 {
+  font-size: small;
+}
+
 .Footer {
   background-color: var(--color-tertiary);
   position: fixed;
@@ -5,4 +9,30 @@
   left: 0;
   right: 0;
   height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Footer-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Footer-conectionLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Footer-conectionLinks a,
+.Footer-conectionLinks p {
+  font-size: small;
+  padding: 5px;
+}
+
+img {
+  width: 16px;
+  height: 16px;
 }

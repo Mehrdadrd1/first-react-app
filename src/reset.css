@@ -91,6 +91,8 @@ video {
   font: inherit;
   vertical-align: baseline;
   color: var(--color-primary);
+  list-style: none;
+  text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -104,6 +106,7 @@ hgroup,
 menu,
 nav,
 section {
+  text-align: center;
   display: block;
 }
 body {
