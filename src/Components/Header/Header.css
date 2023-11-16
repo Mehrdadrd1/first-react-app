@@ -33,10 +33,6 @@ nav {
   flex-direction: row;
 }
 
-.Header li :hover {
-  background-color: var(--color-secondary);
-}
-
 .Header li {
   font-size: medium;
   margin: 0 10px;

@@ -12,13 +12,13 @@ const Header = () => {
         <div className="pages-card">
           <ul>
             <li>
-              <Link to={`/`}>HomePage</Link>
+              <Link to={`/`}>About</Link>
             </li>
             <li>
-              <Link to={`/about`}>About</Link>
+              <Link to={`/project`}>Projects</Link>
             </li>
             <li>
-              <Link to={`/contact`}>Contact</Link>
+              <Link to={`/contact`}>Connection Ways</Link>
             </li>
           </ul>
         </div>
