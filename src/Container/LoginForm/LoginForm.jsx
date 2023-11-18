@@ -4,9 +4,14 @@ import Form from "../../Components/Form/Form";
 import CheckBox from "../../Components/CheckBox/CheckBox";
 
 const LoginForm = () => {
+  const handleSubmit = async (event) => {
+    event.preventdefault();
+    const response = await fetch("http://localhost:3030/", () => {});
+  };
+
   return (
     <div className="LoginForm">
-      <Form>
+      <Form handleSubmit={handleSubmit}>
         <Input label="Email" id="email" type="email" placeholder="Email" />
         <Input
           label="Password"
