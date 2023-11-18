@@ -1,5 +1,4 @@
 import Layout from "../../Components/Layout/Layout";
-import Heading from "../../Components/Heading/Heading";
 import RegisterForm from "../../Container/RegisterForm/RegisterForm";
 import "./RegisterPage.css";
 

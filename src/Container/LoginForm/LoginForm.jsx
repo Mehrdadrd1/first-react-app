@@ -4,9 +4,8 @@ import Form from "../../Components/Form/Form";
 import CheckBox from "../../Components/CheckBox/CheckBox";
 
 const LoginForm = () => {
-  const handleSubmit = async (event) => {
+  const handleSubmit = (event) => {
     event.preventdefault();
-    const response = await fetch("http://localhost:3030/", () => {});
   };
 
   return (

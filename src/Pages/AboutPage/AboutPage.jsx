@@ -11,16 +11,7 @@ function AboutPage() {
         <Heading as={"h1"}>Mehrdad Rayati</Heading>
         <Heading as={"h2"}>Junior Front-End Developer</Heading>
         <div className="Summary">
-          <p>سلام پدر</p>
-          <p>سلام مادر</p>
-          <p>دوستون دارم</p>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-
-          {/* <p>
+          <p>
             Eu est ad aute culpa nisi elit ullamco velit occaecat officia aliqua
             dolor dolore. Sit tempor nulla adipisicing occaecat deserunt tempor
             eiusmod do tempor sint duis elit.
@@ -44,7 +35,7 @@ function AboutPage() {
             modi porro ab expedita suscipit dicta at, nesciunt beatae.
             Praesentium sunt voluptates nulla mollitia. Soluta doloribus quidem
             aliquam odio inventore pariatur.
-          </p> */}
+          </p>
         </div>
       </Layout>
     </div>
