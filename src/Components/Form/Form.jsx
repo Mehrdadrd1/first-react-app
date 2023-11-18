@@ -1,11 +1,7 @@
 import "./Form.css";
 
 const Form = ({ children }) => {
-  return (
-    <div>
-      <form action="">{children}</form>
-    </div>
-  );
+  return <form action="">{children}</form>;
 };
 
 export default Form;

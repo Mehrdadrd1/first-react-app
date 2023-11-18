@@ -1,0 +1,15 @@
+.fullname {
+  display: flex;
+  flex-direction: row;
+}
+
+.username {
+  display: flex;
+  flex-direction: row;
+}
+
+.submitPart {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
