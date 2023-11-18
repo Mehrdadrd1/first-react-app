@@ -4,72 +4,57 @@ import Form from "../../Components/Form/Form";
 import CheckBox from "../../Components/CheckBox/CheckBox";
 import Heading from "../../Components/Heading/Heading";
 import "./RegisterForm.css";
+import postData from "../../api/postData";
 
 const RegisterForm = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
-    await fetch("http://localhost:3030/users", {
-      method: "POST",
-      headers: { "": "" },
-      body: JSON.stringify({
-        first_name: event.target[0].value,
-        last_name: event.target[1].value,
-        username: event.target[2].value,
-        email: event.target[3].value,
-        avatar: "",
-        password: event.target[4].value,
-        rememberME: event.target[6].checked,
-      }),
-    });
+    const data = {
+      username: event.target[0].value,
+      email: event.target[1].value,
+      password: event.target[2].value,
+      rememberME: event.target[4].checked,
+    };
+    postData(data);
   };
 
   return (
     <div className="RegisterForm">
       <Heading as={"h1"}></Heading>
       <Form handleSubmit={handleSubmit}>
-        <div className="fullname">
-          <Input
-            label="First Name"
-            id="firstName"
-            type="firstName"
-            placeholder="First Name"
-          />
-          <Input
-            label="Last Name"
-            id="lastName"
-            type="lastName"
-            placeholder="Last Name"
-          />
-        </div>
-        <div className="username">
+        <div className="form-control">
           <Input
             label="User Name"
             id="userName"
             type="userName"
             placeholder="User Name"
           />
+        </div>
+        <div className="form-control">
           <Input label="Email" id="username" type="email" placeholder="Email" />
         </div>
-        <div className="password">
+        <div className="form-control">
           <Input
             label="Password"
             id="password"
             type="password"
             placeholder="Password"
           />
+        </div>
+        <div className="form-control">
           <Input
             label="confirm Password"
-            id="confirmPassword"
+            id="Password2"
             type="password"
             placeholder="confirmation Password"
           />
         </div>
-        <div className="submitPart">
+        <div className="form-control">
           <CheckBox>Remember ME</CheckBox>
-          <Button type="submit" id="submit">
-            Register ME
-          </Button>
         </div>
+        <Button type="submit" id="submit">
+          Register ME
+        </Button>
       </Form>
     </div>
   );

@@ -1,6 +1,6 @@
-const postData = async () => {
+const postData = async (data) => {
   try {
-    const response = await fetch("https://example.com/profile", {
+    const response = await fetch("http://localhost:3000/contacts", {
       method: "POST", // or 'PUT'
       headers: {
         "Content-Type": "application/json",
