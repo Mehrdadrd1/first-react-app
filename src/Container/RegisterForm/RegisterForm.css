@@ -1,15 +1,12 @@
-.fullname {
-  display: flex;
-  flex-direction: row;
+.form-control input:focus {
+  outline: 0;
+  border-color: #9fa8da;
 }
 
-.username {
-  display: flex;
-  flex-direction: row;
+.form-control.success input {
+  border-color: lime;
 }
 
-.submitPart {
-  display: flex;
-  justify-content: space-around;
-  padding: 50px;
+.form-control.success input {
+  border-color: red;
 }

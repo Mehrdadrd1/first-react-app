@@ -29,9 +29,11 @@ const RegisterForm = () => {
             type="userName"
             placeholder="User Name"
           />
+          <small></small>
         </div>
         <div className="form-control">
           <Input label="Email" id="username" type="email" placeholder="Email" />
+          <small></small>
         </div>
         <div className="form-control">
           <Input
@@ -40,6 +42,7 @@ const RegisterForm = () => {
             type="password"
             placeholder="Password"
           />
+          <small></small>
         </div>
         <div className="form-control">
           <Input
@@ -48,9 +51,11 @@ const RegisterForm = () => {
             type="password"
             placeholder="confirmation Password"
           />
+          <small></small>
         </div>
         <div className="form-control">
           <CheckBox>Remember ME</CheckBox>
+          <small></small>
         </div>
         <Button type="submit" id="submit">
           Register ME
