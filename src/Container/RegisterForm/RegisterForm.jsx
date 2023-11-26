@@ -4,59 +4,55 @@ import Form from "../../Components/Form/Form";
 import CheckBox from "../../Components/CheckBox/CheckBox";
 import Heading from "../../Components/Heading/Heading";
 import "./RegisterForm.css";
+import { useState } from "react";
 import postData from "../../api/postData";
 
 const RegisterForm = () => {
+  const [responseFromApi, setResponseFromApi] = useState([]);
+
   const handleSubmit = async (event) => {
     event.preventDefault();
+    let id;
     const data = {
+      id: id,
       username: event.target[0].value,
       email: event.target[1].value,
       password: event.target[2].value,
-      rememberME: event.target[4].checked,
+      rememer: event.target[4].checked,
     };
-    postData(data);
+
+    const response = postData(data, id);
+    console.log("Response", response);
   };
+
+  Form.Input = false;
 
   return (
     <div className="RegisterForm">
-      <Heading as={"h1"}></Heading>
+      <Heading as={"h1"}>Register Page</Heading>
+
       <Form handleSubmit={handleSubmit}>
-        <div className="form-control">
-          <Input
-            label="User Name"
-            id="userName"
-            type="userName"
-            placeholder="User Name"
-          />
-          <small></small>
-        </div>
-        <div className="form-control">
-          <Input label="Email" id="username" type="email" placeholder="Email" />
-          <small></small>
-        </div>
-        <div className="form-control">
-          <Input
-            label="Password"
-            id="password"
-            type="password"
-            placeholder="Password"
-          />
-          <small></small>
-        </div>
-        <div className="form-control">
-          <Input
-            label="confirm Password"
-            id="Password2"
-            type="password"
-            placeholder="confirmation Password"
-          />
-          <small></small>
-        </div>
-        <div className="form-control">
-          <CheckBox>Remember ME</CheckBox>
-          <small></small>
-        </div>
+        <Input
+          label="User Name"
+          id="userName"
+          type="userName"
+          placeholder="User Name"
+        />
+        <Input label="Email" id="email" type="email" placeholder="Email" />
+
+        <Input
+          label="Password"
+          id="password"
+          type="password"
+          placeholder="Password"
+        />
+        <Input
+          label="confirm Password"
+          id="Password2"
+          type="password"
+          placeholder="confirmation Password"
+        />
+        <CheckBox>Remember ME</CheckBox>
         <Button type="submit" id="submit">
           Register ME
         </Button>

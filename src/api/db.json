@@ -1,29 +1,38 @@
 {
-  "contacts": [
+  "admins": [
     {
-      "id": "1",
+      "id": 1,
       "username": "mehrdadrd",
       "email": "r.mehrdad@gmail.com",
       "password": "Rayati"
     },
     {
-      "id": "2",
+      "id": 2,
       "username": "farhadp",
       "email": "p.farhad@gmail.com",
       "password": "Pesarakloo"
     },
     {
-      "id": "3",
+      "id": 3,
       "username": "hoseinr",
       "email": "r.hosein@gmail.com",
       "password": "Rafati"
+    }
+  ],
+  "registered": [
+    {
+      "username": "mehran",
+      "email": "mrd@gmail.com",
+      "password": "1234",
+      "rememer": true,
+      "id": 1
     },
     {
-      "username": "nasim.a",
-      "email": "a.nasim@gmail.com",
-      "password": "nasim",
-      "rememberME": true,
-      "id": "0wldHrY"
+      "username": "Hoora",
+      "email": "hra@gmail.com",
+      "password": "12345",
+      "rememer": false,
+      "id": 2
     }
   ]
 }
